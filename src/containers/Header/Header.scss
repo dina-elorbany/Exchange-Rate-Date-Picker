@@ -1,0 +1,12 @@
+.header {
+  background-image: var(--gradient-background);
+
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+
+  height: 15vh;
+  &__title {
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 10rem;
+  }
+}

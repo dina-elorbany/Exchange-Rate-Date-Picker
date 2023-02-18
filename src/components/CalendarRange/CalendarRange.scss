@@ -1,0 +1,17 @@
+.calendar__range {
+  display: flex;
+  box-shadow: var(--dark-shadow);
+  border-radius: 5px;
+  background: none;
+
+  animation: fadeIn 1.5s;
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,108 @@
+.react-calendar {
+  min-height: 35rem;
+  width: 35rem;
+  max-width: 100%;
+  border: none;
+  font-family: var(--base-color);
+  color: var(--primary-color);
+  line-height: 2rem;
+  padding: 1rem;
+  align-items: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: var(--dark-shadow);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  & button {
+    margin: 0;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+  }
+
+  &--doubleView {
+    width: 70rem;
+  }
+
+  &__navigation {
+    display: flex;
+    height: 4.5rem;
+    margin-bottom: 0.7rem;
+
+    button {
+      min-width: 4.5rem;
+
+      &:disabled {
+        background: #f0f0f0;
+      }
+      &:enabled:hover,
+      &:enabled:focus {
+        background: var(--bgColor-hover);
+        font-weight: 700;
+      }
+    }
+  }
+
+  &__month-view {
+    &__weekdays {
+      font-weight: 700;
+      font-size: 1.2rem;
+
+      &__weekday {
+        padding: 0.7rem;
+      }
+    }
+
+    &__days__day {
+      border-radius: 50% !important;
+
+      &--weekend {
+        color: #cc337a;
+      }
+    }
+  }
+
+  &__tile {
+    &:disabled {
+      background-color: #f0f0f0;
+    }
+
+    &:enabled:hover,
+    &:enabled:focus {
+      background-color: #e6e6e6;
+    }
+
+    &--now {
+      background: var(--tertiary-color);
+      color: var(--dark-color) !important;
+
+      &:enabled:hover,
+      &:enabled:focus {
+        background: #e6f5ffd6;
+      }
+    }
+
+    &--hasActive {
+      background: #76baff;
+
+      &:enabled:hover,
+      &:enabled:focus {
+        background: #a9d4ff;
+      }
+    }
+
+    &--active {
+      background: #3fc883d7;
+
+      color: white;
+
+      &:enabled:hover,
+      &:enabled:focus {
+        background: #3fc883d7;
+      }
+    }
+  }
+}
