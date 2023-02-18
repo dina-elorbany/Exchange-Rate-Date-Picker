@@ -54,7 +54,7 @@ const Main = () => {
     <div className='main'>
       {/* TOGGLE BETWEEN CALNEDAR DATE RANGE AND THE RESULTS OF CURRENCY EXCHANGE */}
       {data.success ? (
-        <CurrencyTable data={data} setData={setData} />
+        <CurrencyTable data={data} setData={setData} setDate={setDate} />
       ) : (
         <CalendarRange setDate={setDate} />
       )}

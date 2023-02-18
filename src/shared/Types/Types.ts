@@ -13,4 +13,5 @@ export type CalendarPickerProps = {
 export type CurrencyTableProps = {
   data: any;
   setData: any;
+  setDate: (date: any) => void;
 };

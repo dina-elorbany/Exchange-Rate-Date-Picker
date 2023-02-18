@@ -9,6 +9,7 @@ import { CurrencyTableProps } from '../../shared/Types/Types';
 const CurrencyTable: FC<CurrencyTableProps> = ({
   data,
   setData,
+  setDate,
 }: CurrencyTableProps) => {
   const handleRestart = () => {
     setData({
@@ -22,6 +23,11 @@ const CurrencyTable: FC<CurrencyTableProps> = ({
       start_date: '',
       end_date: '',
       rates: {},
+    });
+
+    setDate({
+      startDate: '',
+      endDate: '',
     });
   };
 
