@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# [Exchange Rate Date Picker](https://exchange-rate-date-picker.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Disciption:
+- A simple responsive app that is used a calendar UI to select any range of date via picking a start and end date and in order to get a data of exchange currency rates during selected period.
 
-## Available Scripts
+## Features:
+- Select any wanted date rage to get the currency(EGP - CAD) exchange rate during this period.
+- Get all needed data shown in a cool table.
+- If the start_date selected is after the end date, this means that this is not a valid range and you will get an alert with the error and the API won't be called 
+- If the end_date selected is in the future, you will get the table of results between the start_date and till today, other data won't be shown.
+- Ifter getting wanted range after, if another range wanted, just click the restart button that's floating on the top right and it will reset all dates and data and show the calendar window again to allow select another range.
 
-In the project directory, you can run:
+## Tools:
 
-### `npm start`
+- HTML5
+- CSS3
+- Scss
+- React JS
+- TypeScript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Packages:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- "moment"
+- "axios"
+- "react-icons"
+- "react-toastify"
+- "react-calendar"
 
-### `npm test`
+## Images
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-- First View:
+- whene first loaded
+![exchange-rate-date-picker-veiw1](https://user-images.githubusercontent.com/72308423/219898744-c4352382-5a4a-430a-885e-3f515cf5be0a.png)
 
-### `npm run build`
+-- Second View:
+- after selecting a start date
+![exchange-rate-date-picker-veiw2](https://user-images.githubusercontent.com/72308423/219898749-897d0d30-2fe0-4aa9-afc1-1cf88365ca06.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+-- Third View:
+- once selecting the end date, the results are here!
+![exchange-rate-date-picker-veiw3](https://user-images.githubusercontent.com/72308423/219898752-aa1f45c3-c152-415b-843c-9166a3b1c0d7.png)
