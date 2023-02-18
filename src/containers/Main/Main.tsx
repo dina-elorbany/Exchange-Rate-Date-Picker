@@ -3,7 +3,6 @@ import axios from 'axios';
 
 import { CalendarRange, CurrencyTable } from '../../components';
 import './Main.scss';
-import { start } from 'repl';
 import { toast } from 'react-toastify';
 
 const Main = () => {
