@@ -28,14 +28,14 @@
 
 ## Images
 
--- First View:
-- whene first loaded
+- #### First View:
+  - whene first loaded
 ![exchange-rate-date-picker-veiw1](https://user-images.githubusercontent.com/72308423/219898744-c4352382-5a4a-430a-885e-3f515cf5be0a.png)
 
--- Second View:
-- after selecting a start date
+- #### Second View:
+  - after selecting a start date
 ![exchange-rate-date-picker-veiw2](https://user-images.githubusercontent.com/72308423/219898749-897d0d30-2fe0-4aa9-afc1-1cf88365ca06.png)
 
--- Third View:
-- once selecting the end date, the results are here!
+- #### Third View:
+  - once selecting the end date, the results are here!
 ![exchange-rate-date-picker-veiw3](https://user-images.githubusercontent.com/72308423/219898752-aa1f45c3-c152-415b-843c-9166a3b1c0d7.png)
