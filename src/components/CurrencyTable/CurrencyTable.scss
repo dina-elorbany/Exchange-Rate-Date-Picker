@@ -109,5 +109,13 @@
     position: fixed;
     right: 5rem;
     top: 10rem;
+
+    @media screen and (max-width: 600px) {
+      font-size: 4rem;
+      width: 5rem;
+      height: 5rem;
+      right: 1rem;
+      top: 8rem;
+    }
   }
 }
