@@ -14,7 +14,7 @@ const CalendarRange: FC<CalendarRangeProps> = ({
 
   // GET START DATE
   const getStartDate = (startDate: Date) => {
-    setDate((prev: any) => {
+    setDate((prev: Date) => {
       return {
         ...prev,
         startDate: moment(startDate).format('YYYY-MM-DD'),
@@ -24,7 +24,7 @@ const CalendarRange: FC<CalendarRangeProps> = ({
 
   // GET END DATE
   const getEndDate = (endDate: Date) => {
-    setDate((prev: any) => {
+    setDate((prev: Date) => {
       return {
         ...prev,
         endDate: moment(endDate).format('YYYY-MM-DD'),

@@ -86,11 +86,11 @@
     }
 
     &--hasActive {
-      background: #76baff;
+      background: #3fc883d7;
 
       &:enabled:hover,
       &:enabled:focus {
-        background: #a9d4ff;
+        background: #62d29ac5;
       }
     }
 
@@ -101,7 +101,7 @@
 
       &:enabled:hover,
       &:enabled:focus {
-        background: #3fc883d7;
+        background: #62d29ac5;
       }
     }
   }

@@ -14,7 +14,7 @@ const CalendarPicker: FC<CalendarPickerProps> = ({
   active,
   setActive,
 }: CalendarPickerProps) => {
-  const [date, setDate] = useState(new Date());
+  const [date, setDate] = useState(null);
 
   return (
     <div className='calendar__picker'>
@@ -28,10 +28,11 @@ const CalendarPicker: FC<CalendarPickerProps> = ({
       </div>
 
       <Calendar
+        value={date}
         onChange={(e: any) => {
           setDate(e);
         }}
-        onClickDay={e => {
+        onClickDay={(e: Date) => {
           getDate(e);
 
           // USE SETTIMEOUT TO CHANGE ACTIVE CLASS AFTER A WHILE SINCE THE USER CLICKED A DAY
@@ -44,7 +45,6 @@ const CalendarPicker: FC<CalendarPickerProps> = ({
             }
           }, 500);
         }}
-        value={date}
       />
     </div>
   );
