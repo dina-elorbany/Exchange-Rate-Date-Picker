@@ -1,6 +1,6 @@
 # [Exchange Rate Date Picker](https://exchange-rate-date-picker.netlify.app/)
 
-## Disciption:
+## Description:
 - A simple responsive app that is used a calendar UI to select any range of date via picking a start and end date and in order to get a data of exchange currency rates during selected period.
 
 ## Features:
