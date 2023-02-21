@@ -29,13 +29,21 @@
 ## Images
 
 - #### First View:
-  - whene first loaded
-![exchange-rate-date-picker-veiw1](https://user-images.githubusercontent.com/72308423/219898744-c4352382-5a4a-430a-885e-3f515cf5be0a.png)
+  - Whene first loaded
+![exchange-rate-date-picker-veiw1](https://user-images.githubusercontent.com/72308423/220432582-05d850ea-de18-4621-847e-0b5ff8068c31.png)
 
 - #### Second View:
-  - after selecting a start date
-![exchange-rate-date-picker-veiw2](https://user-images.githubusercontent.com/72308423/219898749-897d0d30-2fe0-4aa9-afc1-1cf88365ca06.png)
+  - After selecting a start date
+![exchange-rate-date-picker-veiw2](https://user-images.githubusercontent.com/72308423/220432631-97d2b65f-2c62-4141-a145-a7e1cd496fe3.png)
 
 - #### Third View:
-  - once selecting the end date, the results are here!
-![exchange-rate-date-picker-veiw3](https://user-images.githubusercontent.com/72308423/219898752-aa1f45c3-c152-415b-843c-9166a3b1c0d7.png)
+  -  After selecting an end date
+![exchange-rate-date-picker-veiw3](https://user-images.githubusercontent.com/72308423/220432645-4a0e3416-962c-4802-af9a-a9e6f0f7c074.png)
+ 
+- #### Forth View:
+  - Once selecting the end date, the results are here!
+![exchange-rate-date-picker-veiw4](https://user-images.githubusercontent.com/72308423/220432659-38d5d9a5-a5a9-4cfc-9064-a69d1f5a0d01.png)
+
+- #### Fifth View:
+  - After resetting all dates and data by clicking the restart button
+![exchange-rate-date-picker-veiw5](https://user-images.githubusercontent.com/72308423/220432678-3fabe6fc-6823-4a54-ba67-44e15b4496a6.png)
